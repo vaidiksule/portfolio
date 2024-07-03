@@ -1,0 +1,51 @@
+@media screen and (max-width: 1300px) {
+    #desktop-navbar ul{
+        display: none;
+    }
+    #mobile-navbar ul{
+        display: flex;
+    }
+    .logo{
+        display: none;
+    }
+
+    .name h2{
+        font-size: 3.5rem;
+    }
+
+    .name h4{
+        font-size: 2rem;
+    }
+
+    .project-btn-1, .project-btn-2{
+        width: 6rem;
+    }
+
+    .all-sections{
+        margin: 0;
+    }
+
+    .hero-projects, .hero-about, .hero-contact{
+        width: 90vw;
+    }
+
+    .project-box{
+        width: 35vw;
+        margin-top: 4vh;
+    }
+    .project-box:hover{
+        width: 40vw;
+        margin-top: 4vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .project-box{
+        width: 70vw;
+        margin-top: 4vh;
+    }
+    .project-box:hover{
+        width: 75vw;
+        margin-top: 4vh;
+    }
+}
